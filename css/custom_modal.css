@@ -1,0 +1,53 @@
+/**
+ *   Styles for modal window
+ */
+
+.window {
+  position: fixed;
+  width: 960px;
+  height: auto;
+  display: none;
+  z-index: 9999;
+  background: white;
+}
+
+.contextual-links-region .window {
+  position: fixed;	
+}
+
+.window .modal_container {
+  padding: 40px;
+  padding-top: 40px;
+}
+.window .header_modal {
+  position: relative;  
+}
+
+.window .header_modal .close { 
+  position: absolute;
+  top:0;
+  right: 0;  
+}
+
+.window .content_modal {
+  margin-top: 20px;
+}
+
+.window .title_modal {
+  text-align: left; 
+  padding-right: 20px; 
+}
+
+.window .title_modal  h1{ 
+  margin: 0;
+
+}
+
+#mask {
+  position: absolute;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,5 @@
+name = Custom modal
+description = Simple modal window
+core = 7.x
+
+version = "7.x-1.0"
