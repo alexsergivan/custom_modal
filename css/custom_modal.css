@@ -3,7 +3,7 @@
  */
 
 .window {
-  position: fixed;
+  position: absolute;
   width: 960px;
   height: auto;
   display: none;

@@ -6,7 +6,7 @@
           <?php print $vars['title']; ?>
         </h1>
       </div>
-      <a href="#" class="close">X</a>	
+      <a href="#" class="close">X <?php print t('Close'); ?></a>	
     </div>		
     <div class="content_modal">
       <?php print $vars['content']; ?>	
